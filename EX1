@@ -1,0 +1,13 @@
+#include<stdio.h>
+	
+int main(){
+	
+		float lado1, lado2, Area;
+		printf("Digite os lados do quadrado: ");
+		scanf("%f %f",&lado1, &lado2);
+	
+		area=(lado*lado);
+	
+		printf("A area do quadrado e = %f",Area);
+		return 0;
+}

@@ -1,0 +1,14 @@
+#include<stdio.h>
+	
+main(){
+		int n, suces=0;
+		do{
+		    printf("\n Digite um numero\n: ");
+		    scanf("%d",&n);
+		    
+		    suces = n+1;
+		    
+		    printf("O Sucessor de %d = %d",n,suces);
+		    
+		}while(n>=0);
+}

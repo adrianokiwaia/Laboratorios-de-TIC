@@ -1,0 +1,24 @@
+#include<stdio.h>	
+int main(){
+        int a, b, c;
+        float x1, x2, del;
+        printf("Insira o valor de A, B e C");
+        scanf("%f %f %f",&a,&b,&c);
+        
+        del = (b*b)-(4*a*c);
+        printf("Delta = %f \n",del);
+        
+        if(del<0){
+           printf("Raizes imaginarias");
+        }
+        else if(del==0){
+                x1=x2 = (-b)/(2*a);
+                printf("S = %f, %f",x1,x2);
+        }
+        else if(del>0){
+                x1 = (-b+sqrt(del))/(2*a);
+                x2 = (-b+sqrt(del))/(2*a);
+                printf("\n x1 = %f \n x2 = %f", x1,x2);
+        }
+		return 0;
+}

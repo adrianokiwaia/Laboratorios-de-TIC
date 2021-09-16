@@ -1,0 +1,13 @@
+#include<stdio.h>
+	
+main(){
+		float num, res=1, i;
+		printf("Insira um numero: ");
+		scanf("%f",&num);
+		
+		for(i=num; i>=1; i--){
+		    res* = i;
+		    printf("%d X",i);
+		}
+		printf("=%d",res);
+}

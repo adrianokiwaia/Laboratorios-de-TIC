@@ -1,0 +1,14 @@
+#include<stdio.h>	
+int main(){
+        
+        float preco, percimp, percl,valorl, valorimp, precof;
+        printf("Digite o preco do veiculo\n ,O percentual de lucro \n e o percentual de imposto:");
+        scanf("%f %f %f",&preco,&percl,&percimp);
+        
+        valorl = (preco*percl)/100;
+        valorimp = (preco*percimp)/100;
+        precof = valorl+valorimp;
+        
+        printf("O valor do lucro = %f \n O valor de imposto = %f \n O preco final do veiculo = %f",valorl,valorimp,precof);
+		return 0;
+}

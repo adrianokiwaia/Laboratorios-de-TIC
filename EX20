@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<stdlib.h>	
+int main(){
+        float alturaC=1.50, alturaJ=1.10;
+		int i=0;
+		while(alturaC>alturaJ){
+		      alturaC = 0.02;
+		      alturaJ = 0.03;
+		      i++;
+		}
+		printf("Sera preciso %d anos para o Juca ter uma altura superior do Chico",i);
+		return 0;
+}

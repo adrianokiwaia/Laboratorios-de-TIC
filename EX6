@@ -1,0 +1,13 @@
+#include<stdio.h>	
+int main(){
+        
+        float custo, preco, quant;
+        printf("Digite o custo do espetaculo e o preco do convite: ");
+        scanf("%f %f",&custo,&preco);
+        
+        quant = (custo/preco);
+        
+        printf("A quantidade de convites que devem ser vendidos = %f",quant);
+        
+		return 0;
+}

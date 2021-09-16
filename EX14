@@ -1,0 +1,20 @@
+#include<stdio.h>	
+int main(){
+        
+        float mediP=0,mediaI;
+        int i, soma1,soma2,num;
+        for(i=1; i<=10; i++){
+            printf("\n Digite os numeros");
+            scanf("%d",&num);
+            if(num%2==0){
+               soma1+ = num;
+               mediaP = num/10;
+            }
+            else if(num%2!=0){
+                    soma2+ = num;
+                    mediaI = num/10;
+            }
+        }
+        printf("Media dos pares = %f\n Media dos Impares = %f",mediaP,mediaI);
+		return 0;
+}
