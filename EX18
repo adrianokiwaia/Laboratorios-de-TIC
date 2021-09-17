@@ -1,0 +1,23 @@
+#include<stdio.h>
+main(){
+   char nome[30][20],custo[30],ndias[30];
+   int i,soma=0;
+   for(i=0; i<30; i++){
+       gets(nome[i]);
+   }
+   for(int i=0; i<30; i++){
+       printf("Insira o numero de dias");
+       scanf("%c",ndias[i]);
+   }
+   if(ndias[i]<15){
+      custo[i] = (50.00*ndias[i])+4.00;
+   }
+   else if(ndias[i]==15){
+      custo[i] = (50.00*ndias[i])+3.60;
+   }
+   else if(ndias[i]>15){
+      custo[i] = (50.00*ndias[i])+3.00;
+   }
+   soma+ = custo[i];
+   printf("O custo sera %d",soma);
+}
