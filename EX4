@@ -1,0 +1,10 @@
+#include<stdio.h>
+main(){
+   float sal, aumento, novosal;
+   printf("Digite o salario :");
+   scanf("%f",&sal);
+   
+   aumento = (sal*25)/100;
+   novosal = sal+aumento;
+   printf("O novo salario sera %f",novosal);
+}
